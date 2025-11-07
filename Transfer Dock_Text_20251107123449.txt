@@ -1,0 +1,128 @@
+6417.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>6419 Electronics Service</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #eee;
+    }
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #555;
+    }
+    header h1 {
+      font-size: 2em;
+      color: #00ffff;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      background: #1a1a1a;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .service-box {
+      background: #1b1b1b;
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 30px;
+      width: 250px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ffff44;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #555;
+      color: #aaa;
+    }
+    .contact {
+      margin-top: 30px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>6419 Electronics Service</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="margin-top:20px; color:#ccc;">
+      At <strong>6419</strong>, we specialize in professional cleaning and maintenance 
+      of electronic devices. Our expert team ensures your gadgets run smoothly, 
+      safely, and efficiently — keeping your tech as good as new.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services" style="margin-top:30px;">
+      <div class="service-box">
+        <h3>Device Cleaning</h3>
+        <p>Deep cleaning and sanitization of laptops, PCs, and electronic devices.</p>
+      </div>
+      <div class="service-box">
+        <h3>Maintenance</h3>
+        <p>Regular inspection and preventive maintenance for long-lasting performance.</p>
+      </div>
+      <div class="service-box">
+        <h3>Repair Assistance</h3>
+        <p>Quick diagnostics and repair solutions for most common electronic issues.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p class="contact">📞 Phone: <a href="tel:8140021537" style="color:#00ffff;">8140021537</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 6419 Electronics Service | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
